@@ -1,15 +1,22 @@
+html{
+    background: linear-gradient(to bottom, #00C9FF, #0071E5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 body{
     font-family: 'Baloo 2','Ubuntu','Segoe UI','Roboto','sans-serif';
 }
 
 .title{
-    background-color: #333;
+    background: linear-gradient(to top, #1E1E28, #424252);
     display: block;
     top: 0;
     left: 0;
     width: 100%;
     position: fixed;
     z-index: 1000;
+    border-radius: 0px 0px 25px 25px;
 }
 
 .title h1 {
@@ -20,4 +27,8 @@ body{
     text-decoration: none;
     font-size: 17px;
     margin: 0px
+}
+
+h1{
+    text-align: center;
 }
