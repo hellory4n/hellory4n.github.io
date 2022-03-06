@@ -4,6 +4,7 @@ body{
 
 .title{
     background-color: #333;
+    display: block;
 }
 
 .title h1 {
