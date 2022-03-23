@@ -12,7 +12,7 @@ const hellotext = document.getElementById("hellotext");
 hellotext.textContent = choice(hellos);
 
 //put random t h i n g on page
-const bananas = ["Professional idiot",
+/*const bananas = ["Professional idiot",
 "A light gray cube with headphones and a crown that does stuff",
 "Bananas are fantastic",
 "Welcome to the blue void",
@@ -24,4 +24,4 @@ const bananas = ["Professional idiot",
 "You are seeing tons of bits and bytes that are converted to millions of very small squares with different colors and displayed on your screen",
 "keofesjldoçtkfh esdoçktnbhfejls"]
 const ues = document.getElementById("yourmom");
-ues.textContent = choice(bananas);
+ues.textContent = choice(bananas);*/
