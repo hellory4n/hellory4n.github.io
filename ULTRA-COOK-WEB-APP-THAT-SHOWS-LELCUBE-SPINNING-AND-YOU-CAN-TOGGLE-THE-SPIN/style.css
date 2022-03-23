@@ -1,0 +1,29 @@
+body{
+    font-family: 'Baloo 2','Segoe UI','Roboto','sans-serif';
+    color: white;
+}
+
+.high-quality-light-theme{
+    background: #7289DA;
+}
+
+.high-quality-dark-theme{
+    background: #4E5D94;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotateZ(0);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+
+.is-spinning{
+    animation: spin 2.5s linear infinite;
+}
+
+#lelcube{
+    margin: 32px;
+}
