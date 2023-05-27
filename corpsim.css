@@ -1,0 +1,45 @@
+html {
+    font-family: 'Ubuntu', 'sans-serif';
+    color: black;
+    background: #EEEEEE
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    padding-top: 20px;
+}
+
+@media (max-width: 960px) {
+    img {
+        width: 90vw;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.short {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.button {
+    text-decoration: none;
+    background: linear-gradient(#00c2ff, #006ad4);
+    color: white;
+    padding: 16px 24px;
+    border-radius: 10px;
+    margin: 50px 5px;
+}
+
+.why {
+    width: 100%;
+    text-align: center;
+    margin-top: 36px;
+}
