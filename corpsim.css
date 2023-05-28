@@ -22,6 +22,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .short {
     max-width: 700px;
     text-align: center;
